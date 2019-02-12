@@ -20,6 +20,12 @@ h6 {
   @include heading-font;
 }
 
+img {
+    width: 12rem;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
 video {
   position: fixed;
   top: 50%;
