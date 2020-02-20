@@ -1,0 +1,48 @@
+textarea,
+input:not([type]),
+input[type='url'],
+input[type='tel'],
+input[type='text'],
+input[type='date'],
+input[type='email'],
+input[type='number'],
+input[type='search'],
+input[type='password'],
+.selectr-selected {
+	appearance: none;
+	width: var(--formWidth, 100%);
+	height: var(--formInputHeight);
+	color: var(--formTextInitialColor);
+	font-size: var(--formFontSize);
+	padding: var(--formPadding, 0 15px);
+	background-color: var(--formBackgroundInitialColor);
+	transition: all 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+	&:focus {
+		outline: none;
+		color: var(--formTextFocusColor);
+		background-color: var(--formBackgroundFocusColor);
+	}
+
+	@include input-placeholder {
+		opacity: 0.6;
+		color: inherit;
+	}
+}
+
+textarea {
+	--formPadding: 15px;
+	line-height: 1.5;
+}
+
+label {
+	--fontSize: 16px;
+	--lineHeight: inherit;
+	display: block;
+	cursor: pointer;
+	margin: 0 0 0.5em 0;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

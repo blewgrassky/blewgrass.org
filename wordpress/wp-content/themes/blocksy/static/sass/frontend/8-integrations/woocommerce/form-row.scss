@@ -1,0 +1,44 @@
+.form-row {
+	&:not(:last-child) {
+		margin-bottom: 20px;
+	}
+
+	.required {
+		color: red;
+		font-weight: 700;
+		text-decoration: none;
+	}
+
+	textarea {
+		display: block;
+	}
+
+	&:before, &:after {
+		content: '';
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
+
+.form-row-wide {
+	clear: both;
+}
+
+.form-row-first {
+	@include media-breakpoint-up (md) {
+		width: 48%;
+		float: left;
+		overflow: visible;
+	}
+}
+
+.form-row-last {
+	@include media-breakpoint-up (md) {
+		width: 48%;
+		float: right;
+		overflow: visible;
+	}
+}
