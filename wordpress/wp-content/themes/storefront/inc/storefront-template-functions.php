@@ -138,7 +138,7 @@ if ( ! function_exists( 'storefront_credit' ) ) {
 
 		if ( apply_filters( 'storefront_credit_link', true ) ) {
 			if ( storefront_is_woocommerce_activated() ) {
-				$links_output .= '<a href="https://woocommerce.com" target="_blank" title="' . esc_attr__( 'WooCommerce - The Best eCommerce Platform for WordPress', 'TRON Technologies' ) . '" rel="noreferrer">' . esc_html__( 'Built with TRON Technologies &amp; WooCommerce', 'TRON Technologies' ) . '</a>.';
+				$links_output .= '<a href="r" target="_blank" title="' . esc_attr__( '', 'TRON Technologies' ) . '" rel="noreferrer">' . esc_html__( 'Built with TRON Technologies ', 'TRON Technologies' ) . '</a>.';
 			} else {
 				$links_output .= '<a href="" target="_blank" title="' . esc_attr__( '.', '' ) . '" rel="noreferrer">' . esc_html__( 'Built with TRON Technologies', 'TRON Technologies' ) . '</a>.';
 			}
