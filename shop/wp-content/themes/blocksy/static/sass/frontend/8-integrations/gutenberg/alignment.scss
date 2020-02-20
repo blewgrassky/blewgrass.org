@@ -1,0 +1,43 @@
+.entry-content {
+
+	// Center alignment
+	.aligncenter {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	// Left & right alignment offset
+	[class*="align-wrap"] {
+		> * {
+			width: calc(var(--blockMaxWidth) / 2 + var(--wideOffset));
+			max-width: 50%;
+		}
+	}
+
+	@include media-breakpoint-down (sm) {
+		.alignleft, .alignright {
+			float: none;
+			max-width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: var(--contentSpacing);
+		}
+	}
+
+	@include media-breakpoint-up (md) {
+		.alignleft, .alignright {
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+		}
+
+		.alignleft {
+			float: left;
+			margin-right: 30px;
+		}
+
+		.alignright {
+			float: right;
+			margin-left: 30px;
+		}
+	}
+}

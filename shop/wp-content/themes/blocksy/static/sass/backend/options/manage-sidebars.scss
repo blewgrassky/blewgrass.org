@@ -1,0 +1,45 @@
+// .ct-manage-sidebars {
+// 	display: flex;
+// 	position: relative;
+
+// 	.ct-select-input {
+// 		max-width: 160px !important;
+
+// 		input {
+// 			padding-right: 30px;
+// 		}
+
+// 		&:after {
+// 			right: 30px;
+// 		}
+// 	}
+
+// 	a {
+// 		display: flex;
+// 		align-items: center;
+// 		justify-content: center;
+// 		position: absolute;
+// 		top: 5px;
+// 		right: 0;
+// 		width: 30px;
+// 		height: 20px;
+// 		color: inherit;
+// 		text-decoration: none;
+
+// 		&:before {
+// 			font-family: dashicons;
+// 			content: "\f111";
+// 			font-size: 12px;
+// 		}
+
+// 		&:hover {
+// 			color: #0073aa;
+			
+// 			.ct-tooltip-top {
+// 				opacity: 1;
+// 				visibility: visible;
+// 				transform: translate3d(0px, -38px, 0px);
+// 			}
+// 		}
+// 	}
+// }
