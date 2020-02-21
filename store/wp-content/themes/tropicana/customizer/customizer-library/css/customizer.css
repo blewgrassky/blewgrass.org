@@ -1,0 +1,131 @@
+
+.customize-control input[type=text].pixels,
+.customize-control input[type=text].milliseconds {
+	width: 50px;
+}
+
+.customize-control-warning {
+	color: red;
+	font-weight: 400;
+}
+
+.customize-control.hidden {
+	display: none !important;
+}
+
+#customize-theme-controls #accordion-section-colors {
+	display: none !important;
+}
+
+#customize-theme-controls #accordion-panel-tropicana-colors h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-general-colors h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-top-bar-colors h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-site-logo-area-colors h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-navigation-menu-colors h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-slider-colors h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-header-image-colors h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-page-content-colors h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-widget-colors h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-footer-colors h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-mobile-colors h3:hover,
+
+#customize-theme-controls #accordion-panel-tropicana-styling h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-styling-paragraph h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-styling-widget h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-styling-page-builders h3:hover,
+
+#customize-theme-controls #accordion-panel-tropicana-fonts h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-site-title-fonts h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-navigation-menu-fonts h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-page-title-fonts h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-heading-fonts h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-body-fonts h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-widget-title-fonts h3:hover,
+
+#customize-theme-controls #accordion-section-tropicana-layout h3:hover,
+
+#customize-theme-controls #accordion-panel-tropicana-header h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-header-top-bar h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-header-site-logo-area h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-header-navigation-menu h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-header-text h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-header-stickiness h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-header-opacity h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-header-secondary-pages h3:hover,
+	#customize-theme-controls #accordion-section-tropicana-header-responsiveness h3:hover,
+
+#customize-theme-controls #accordion-section-tropicana-social h3:hover,
+#customize-theme-controls #accordion-section-tropicana-search h3:hover,
+#customize-theme-controls #accordion-section-tropicana-mobile h3:hover,
+#customize-theme-controls #accordion-section-tropicana-slider h3:hover,
+#customize-theme-controls #accordion-section-tropicana-blog h3:hover,
+#customize-theme-controls #accordion-section-tropicana-website-text h3:hover,
+#customize-theme-controls #accordion-section-tropicana-footer h3:hover,
+#customize-theme-controls #accordion-section-tropicana-media h3:hover {
+    background-color: #8ea535;
+	color: #FFFFFF;
+}
+
+#customize-theme-controls #accordion-panel-tropicana-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-general-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-top-bar-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-site-logo-area-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-navigation-menu-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-slider-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-header-image-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-page-content-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-widget-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-footer-colors:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-mobile-colors:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-panel-tropicana-styling:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-styling-paragraph:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-styling-widget:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-styling-page-builders:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-panel-tropicana-fonts:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-site-title-fonts:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-navigation-menu-fonts:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-page-title-fonts:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-heading-fonts:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-body-fonts:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-widget-title-fonts:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-section-tropicana-layout:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-panel-tropicana-header:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-header-top-bar:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-header-site-logo-area:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-header-navigation-menu:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-header-text:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-header-stickiness:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-header-opacity:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-header-secondary-pages:hover>.accordion-section-title:after,
+	#customize-theme-controls #accordion-section-tropicana-header-responsiveness:hover>.accordion-section-title:after,
+
+#customize-theme-controls #accordion-section-tropicana-social:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-tropicana-search:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-tropicana-mobile:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-tropicana-slider:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-tropicana-blog:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-tropicana-website-text:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-tropicana-footer:hover>.accordion-section-title:after,
+#customize-theme-controls #accordion-section-tropicana-media:hover>.accordion-section-title:after {
+	color: #FFFFFF !important;
+}
+
+#accordion-section-colors.control-section.open h3,
+#accordion-section-tropicana-styling.control-section.open h3,
+#accordion-section-tropicana-fonts.control-section.open h3,
+#accordion-section-tropicana-layout.control-section.open h3,
+#accordion-section-tropicana-header.control-section.open h3,
+#accordion-section-tropicana-mobile-menu.control-section.open h3,
+#accordion-section-tropicana-slider.control-section.open h3,
+#accordion-section-tropicana-blog.control-section.open h3,
+#accordion-section-tropicana-website.control-section.open h3,
+#accordion-section-tropicana-footer.control-section.open h3,
+#accordion-section-tropicana-social.control-section.open h3,
+#sub-accordion-section-tropicana-search.control-section.open h3,
+#sub-accordion-section-tropicana-mobile.control-section.open h3 {
+    background-color: #8ea535 !important;
+	color: #FFFFFF;
+}

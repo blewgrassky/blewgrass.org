@@ -1,0 +1,47 @@
+.entry-content {
+	
+	> * {
+		margin-bottom: var(--contentSpacing);
+
+		&:first-child {
+			margin-top: 0 !important;
+		}
+
+		&:last-child {
+			margin-bottom: 0 !important;
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin-top: calc(1.2em + 10px);
+		margin-bottom: calc(0.2em + 10px);
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	// Wide & Full alignment
+	.alignwide, .alignfull {
+		margin-top: calc(var(--contentSpacing) + 1.15vw) !important;
+		margin-bottom: calc(var(--contentSpacing) + 1.15vw) !important;
+	}
+}
+
+
+// Inner container blocks
+[class*="_inner-container"] > * {
+	margin-bottom: var(--contentSpacing);
+
+	&:first-child {
+		margin-top: 0 !important;
+	}
+
+	&:last-child {
+		margin-bottom: 0 !important;
+	}
+}

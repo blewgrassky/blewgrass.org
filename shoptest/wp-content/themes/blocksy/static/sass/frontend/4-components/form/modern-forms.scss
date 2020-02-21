@@ -1,0 +1,43 @@
+[data-forms='modern'] textarea,
+[data-forms='modern'] input:not([type]),
+[data-forms='modern'] input[type='url'],
+[data-forms='modern'] input[type='tel'],
+[data-forms='modern'] input[type='text'],
+[data-forms='modern'] input[type='date'],
+[data-forms='modern'] input[type='email'],
+[data-forms='modern'] input[type='number'],
+[data-forms='modern'] input[type='search'],
+[data-forms='modern'] input[type='password'],
+[data-forms='modern'] .selectr-selected,
+#search-modal .modal-field {
+	border: none;
+	background-image: linear-gradient(
+			transparent calc(100% - var(--formBorderSize)),
+			var(--formBorderFocusColor) calc(100% - var(--formBorderSize)),
+			var(--formBorderFocusColor) calc(100% - var(--formBorderSize))
+		),
+		linear-gradient(
+			transparent calc(100% - var(--formBorderSize)),
+			var(--formBorderInitialColor) calc(100% - var(--formBorderSize)),
+			var(--formBorderInitialColor) calc(100% - var(--formBorderSize))
+		);
+	background-size: 0% 100%, 100% 100%;
+	background-repeat: no-repeat;
+
+	&:focus {
+		background-size: 100% 100%, 100% 100%;
+	}
+}
+
+[data-forms='modern'] .selectr-container.open .selectr-selected {
+	background-size: 100% 100%, 100% 100%;
+}
+
+
+[data-forms='modern'] form {
+	--formPadding: 0;
+
+	textarea {
+		--formPadding: 15px 0;
+	}
+}

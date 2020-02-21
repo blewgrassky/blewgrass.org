@@ -1,0 +1,80 @@
+// on cart page
+.woocommerce-cart-form__contents {
+	.coupon {
+		display: flex;
+		@include media-breakpoint-down (sm) {
+			flex-direction: column;
+			margin-bottom: .8em;
+		}
+
+		@include media-breakpoint-up (md) {
+			float: left;
+		}
+
+		label {
+			display: none;
+		}
+
+		input {
+			@include media-breakpoint-down (sm) {
+				width: 100%;
+				margin-bottom: .8em;
+			}
+
+			@include media-breakpoint-up (md) {
+				width: 220px;
+				margin-right: 20px;
+			}
+		}
+	}
+}
+
+
+// on checkout page
+.woocommerce-form-coupon-toggle {
+	.woocommerce-info {
+		margin-bottom: 0;
+		padding-left: 25px;
+		z-index: 2;
+
+		&:before {
+			display: none;
+		}
+
+		.showcoupon {
+			margin-left: auto;
+			margin-right: 10px;
+			--textDecoration: underline;
+		}
+	}
+
+	~ form.checkout {
+		margin-top: 50px;
+	}
+}
+
+.checkout_coupon {
+
+	p {
+		&:first-child {
+			display: none;
+		}
+
+		&.form-row {
+			margin-top: 30px;
+			margin-bottom: 0;
+		}
+	}
+
+	@include media-breakpoint-down (sm) {
+		.button {
+			width: 100%;
+		}
+	}
+	
+	@include media-breakpoint-up (md) {
+		.form-row {
+			width: 49%;
+		}
+	}
+}

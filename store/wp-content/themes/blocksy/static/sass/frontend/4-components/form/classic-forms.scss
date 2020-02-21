@@ -1,0 +1,29 @@
+[data-forms='classic'] textarea,
+[data-forms='classic'] input:not([type]),
+[data-forms='classic'] input[type='url'],
+[data-forms='classic'] input[type='tel'],
+[data-forms='classic'] input[type='text'],
+[data-forms='classic'] input[type='date'],
+[data-forms='classic'] input[type='email'],
+[data-forms='classic'] input[type='number'],
+[data-forms='classic'] input[type='search']:not(.modal-field),
+[data-forms='classic'] input[type='password'],
+[data-forms='classic'] .selectr-selected {
+	border-radius: var(--formBorderRadius, 3px);
+	border: var(--formBorderSize) var(--formBorderStyle, solid)
+		var(--formBorderInitialColor);
+
+	&:focus {
+		border-color: var(--formBorderFocusColor);
+	}
+}
+
+[data-forms='classic'] .selectr-container.open .selectr-selected {
+	border-color: var(--formBorderFocusColor);
+}
+
+[data-forms='classic'] {
+	textarea {
+		--formPadding: 15px;
+	}
+}
